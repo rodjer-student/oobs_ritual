@@ -7,7 +7,7 @@
 		private static $contact = null;
 		
 		private function __construct(){
-			$this->db = new mysqli("localhost", "root", "usbw", "oobsbase");
+			$this->db = new mysqli("localhost", "your login", "your password", "your base name");
 			$this->db->query("SET NAMES 'utf8'");
 		}
 		
